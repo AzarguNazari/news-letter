@@ -8,4 +8,5 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - echo "Hello world"
+      - name: Just an echo
+      - run: echo 'hellow world'

@@ -2,7 +2,7 @@ name: Run news api fetcher
 
 on:
   schedule:
-    - cron: "* 0/5 * * *"
+    - cron: "* * * * *"
 
 jobs:
   stale:

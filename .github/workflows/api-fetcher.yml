@@ -1,6 +1,6 @@
 name: Run news api fetcher
 
-#on:
+on: push
 #  schedule:
 #    - cron: "* * * * *"
 

@@ -10,3 +10,4 @@ jobs:
     steps:
       - name: Just an echo
       - run: echo 'hellow world'
+        shell: bash

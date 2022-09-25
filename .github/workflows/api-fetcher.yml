@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Just an echo
-      - run: echo 'hellow world'
-        shell: bash
+      - uses: echo 'hellow world'
+      - run : bash
